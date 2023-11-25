@@ -1,0 +1,43 @@
+@font-face {
+    font-family: "Cutive Mono";
+    font-style: normal;
+    font-weight: normal;
+    src: url("../../public/static/fonts/CutiveMono-Regular.ttf") format("truetype");
+}
+
+.nav-links {
+    direction: rtl;
+    display: flex;
+    list-style: none;
+    align-items: center;
+    vertical-align: middle;
+    padding-left: 20%;
+}
+
+.nav-link-item {
+    padding-left: 10%;
+}
+
+.nav-link-text {
+    color: #ffffff;
+    font-family: 'Cutive Mono', monospace;
+    font-size: 1rem;
+    text-decoration: none;
+}
+
+
+
+@media (max-width: 760px) {
+  .nav-links{
+    flex-direction: column-reverse;
+    padding-left: 0%;
+  }
+
+  .nav-link-item {
+    padding-top: 0.5rem;
+  }
+
+  .nav-link-text {
+    color: #0E2310;
+  }
+}

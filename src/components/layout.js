@@ -1,14 +1,14 @@
 import * as React from 'react'
-import MainNav from './MainNav'
 import Footer from './Footer'
+import MainNav from './MainNav'
 
 const Layout = ({ pageTitle, children }) => {
   return (
-    <div>
+    <React.Fragment>
       <MainNav/>
       {children}
       <Footer/>
-    </div>
+    </React.Fragment>
   )
 }
 

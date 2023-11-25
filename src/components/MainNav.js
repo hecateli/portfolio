@@ -1,49 +1,55 @@
 import * as React from 'react'
 import { Link } from 'gatsby'
 import { AiOutlineMenu } from "react-icons/ai";
+import { MdOutlineCancel } from "react-icons/md"
+import MainHeader from './MainHeader'
+
 import {
     container,
-    navLinks,
-    navLinkItem,
-    navLinkText,
     logo,
+    navLinkBut,
     navLinkIcon,
-    navLinkBut
+    navCancelBut,
+    navCancelIcon,
+    main_bar
   } from './MainNav.module.css'
+import NavLinks from './NavLinks'
+import SideDrawer from './SideDrawer';
 
 const MainNav = () => {
+    const [draerIsOpen, setDrawerIsOpen] = React.useState(false);
+
+    const openDrawer = () => {
+        setDrawerIsOpen(true)
+    };
+
+    const closeDrawer = () => {
+        setDrawerIsOpen(false)
+    };
+
     return (
-        <nav className={container}>
-            <Link to="/" className={logo}>YUE</Link>
-            <ul className={navLinks}>       
-                <li className={navLinkIcon}>
-                    <button className={navLinkBut}>
-                        <AiOutlineMenu size={15}/>
+        <React.Fragment>
+            {draerIsOpen && (
+                <SideDrawer>
+                    <NavLinks/>
+                    <button className={navCancelBut} onClick={closeDrawer}>
+                        <MdOutlineCancel className={navCancelIcon} size={15}/>
                     </button>
-                </li>
-                <li className={navLinkItem}>
-                    <Link to="/life" className={navLinkText}>
-                        LIFE
-                    </Link>
-                </li>
-                <li className={navLinkItem}>
-                    <Link to="/projects" className={navLinkText}>
-                        PROJECTS
-                    </Link>
-                </li>
-                <li className={navLinkItem}>
-                    <Link to="/education" className={navLinkText}>
-                        EDUCATION
-                    </Link>
-                </li>
-                <li className={navLinkItem}>
-                    <Link to="/" className={navLinkText}>
-                        HOME
-                    </Link>
-                </li>
-            </ul>
-            
-        </nav>
+                </SideDrawer>
+            )}
+            <MainHeader >
+            <nav className={container}>
+                <Link to="/" className={logo}>YUE</Link>
+                <nav className={main_bar}>
+                    <NavLinks/>
+                </nav>
+                <button className={navLinkBut} onClick={openDrawer}>
+                    <AiOutlineMenu className={navLinkIcon} size={15}/>
+                </button>
+            </nav>
+        </MainHeader>
+        </React.Fragment>
+        
     )
 }
 
