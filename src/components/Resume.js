@@ -4,8 +4,10 @@ import { resume_container,
     resume_heading,
     resume_download_container,
     resume_download_text,
-    resume_download_button }
+    resume_download_button,
+    resume_download_icon }
     from './Resume.module.css'
+import { MdOutlineFileDownload } from "react-icons/md";
 
 const Resume = () => {
     return (
@@ -16,6 +18,7 @@ const Resume = () => {
                     Xinyue_Li_Resume_2023
                 </a>
                 <a href={downloadFile} className={resume_download_button} download>
+                    <MdOutlineFileDownload className={resume_download_icon}/>
                     Download
                 </a>
             </div>

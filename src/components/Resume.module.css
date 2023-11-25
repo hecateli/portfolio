@@ -13,12 +13,13 @@
 }
 
 .resume_container{
-    
+    margin-bottom: 5%;
 }
 
 .resume_heading {
     font-family: "Cutive Mono", monospace;
     text-align: center;
+    color: #0E2310;
 }
 
 .resume_download_container{
@@ -34,7 +35,7 @@
 .resume_download_text{
     font-family: "Share", sans-serif;
     text-decoration: none;
-    color: #000000;
+    color: #0E2310;
     width: 70%;
 }
 
@@ -45,4 +46,8 @@
     text-align: right;
     padding-right: 5%;
     width: 30%;
+}
+
+.resume_download_icon{
+    vertical-align: middle;
 }
