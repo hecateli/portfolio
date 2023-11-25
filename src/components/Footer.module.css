@@ -36,9 +36,13 @@
 }
 
 .footer_link_item{
-    padding-left: 1%;
-    padding-right: 1%;
+    margin-left: 1%;
+    margin-right: 1%;
     color: #FFFFFF;
     font-size: 1.5vw;
     text-decoration: none;
+}
+
+.footer_link_item:hover {
+    border-bottom: 1px solid #FFFFFF;
 }

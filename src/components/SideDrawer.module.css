@@ -1,7 +1,7 @@
 .side_drawer_container {
     position: fixed;
     top: 0;
-    width: 100%;
+    width: 97%;
     z-index: 100;
     background-color: #C9E1CD;
     opacity: 90%;

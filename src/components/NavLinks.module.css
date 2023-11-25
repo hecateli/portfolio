@@ -25,12 +25,18 @@
     text-decoration: none;
 }
 
+.nav-link-text:hover{
+  border-bottom: 2px solid #ffffff;
+}
 
+.nav-link-text:active{
+  border-bottom: 1px solid #ffffff;
+}
 
 @media (max-width: 760px) {
   .nav-links{
     flex-direction: column-reverse;
-    padding-left: 0%;
+    padding-left: 1%;
   }
 
   .nav-link-item {
@@ -39,5 +45,9 @@
 
   .nav-link-text {
     color: #0E2310;
+  }
+
+  .nav-link-text:hover{
+    border-bottom: 1px solid #0E2310;
   }
 }
