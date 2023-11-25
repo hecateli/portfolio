@@ -5,6 +5,8 @@
     src: url("../../public/static/fonts/Cardo-Regular.ttf") format("truetype");
   }
 
+
+
 .intro_container{
     display: flex;
     background-color: #8CA990;

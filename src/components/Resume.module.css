@@ -1,0 +1,48 @@
+@font-face {
+    font-family: "Cutive Mono";
+    font-style: normal;
+    font-weight: normal;
+    src: url("../../public/static/fonts/CutiveMono-Regular.ttf") format("truetype");
+  }
+
+@font-face {
+    font-family: "Share";
+    font-style: italic;
+    font-weight: normal;
+    src: url("../../public/static/fonts/Share-Italic.ttf") format("truetype");
+}
+
+.resume_container{
+    
+}
+
+.resume_heading {
+    font-family: "Cutive Mono", monospace;
+    text-align: center;
+}
+
+.resume_download_container{
+    display: flex;
+    width: 40%;
+    margin-left: 30%;
+    margin-right: 30%;
+    padding-left: 1rem;
+    height: 2rem;
+    background-color: #DFEEE2;
+    align-items: center;
+}
+.resume_download_text{
+    font-family: "Share", sans-serif;
+    text-decoration: none;
+    color: #000000;
+    width: 70%;
+}
+
+.resume_download_button{
+    font-family: "Share", sans-serif;
+    text-decoration: none;
+    color: #245F31;
+    text-align: right;
+    padding-right: 5%;
+    width: 30%;
+}

@@ -2,6 +2,7 @@ import * as React from "react"
 import Layout from '../components/layout'
 import Welcome from "../components/Welcome"
 import Introduction from "../components/Introduction"
+import Resume from "../components/Resume"
 
 const IndexPage = () => {
   return (
@@ -10,6 +11,7 @@ const IndexPage = () => {
         </Layout>
         <Welcome/>
         <Introduction />
+        <Resume/>
     </div>
 
   )
