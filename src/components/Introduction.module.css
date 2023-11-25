@@ -13,7 +13,7 @@
 }
 
 .intro_text{
-    width: 50%;
+    width: 45%;
     color: #ffffff;
     font-size:  1em;
     font-family: "Cardo", sans-serif;
@@ -24,5 +24,25 @@
 } 
 
 .intro_image{
-    width: 50%;
+    width: 55%;
+}
+
+
+  
+@media (max-width: 760px) {
+    .intro_container{
+        flex-direction: column;
+    }
+
+    .intro_image{
+        width:100%;
+    }
+
+    .intro_text{
+        padding-top: 5%;
+        padding-bottom: 5%;
+        padding-left: 1rem;
+        padding-right: 1rem;
+        width: 80%;
+    }
 }

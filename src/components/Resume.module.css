@@ -52,6 +52,33 @@
     font-size: 1rem;
 }
 
-.resume_download_icon{
+.resume_download_icon_left{
     vertical-align: middle;
+}
+
+.resume_download_icon_right{
+    vertical-align: middle;
+}
+
+@media (min-width: 760px) {
+    .resume_download_icon_left {
+      display: none;
+    }
+}
+  
+@media (max-width: 760px) {
+    .resume_download_button{
+        display: none;
+    }
+    .resume_download_text{
+        width: 100%;
+        text-align: center;
+    }
+
+    .resume_download_container{
+        padding-right: 0.4rem;
+        padding-left: 0.4rem;
+        width: 45%;
+        margin-left: 27.5%;
+    }
 }

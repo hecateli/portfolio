@@ -21,8 +21,9 @@
   
 .logo {
     display: flex;
-    width: 50%;
-    margin-left: 2rem;
+    width: 10%;
+    margin-right: 20%;
+    margin-left: 3%;
     align-items: center;
     font-family: 'Cherish', cursive;
     font-size: large;
@@ -31,7 +32,9 @@
 }
 
 .nav-links {
+    direction: rtl;
     display: flex;
+    width: 65%;
     list-style: none;
     align-items: center;
     vertical-align: middle;
@@ -39,7 +42,7 @@
 }
 
 .nav-link-item {
-    padding-right: 10%;
+    padding-left: 10%;
 }
 
 .nav-link-text {
@@ -47,4 +50,31 @@
     font-family: 'Cutive Mono', monospace;
     font-size: 1rem;
     text-decoration: none;
+}
+
+.navLinkBut{
+  background: transparent;
+  border: none;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+.navLinkIcon{
+  color: #ffffff;
+  vertical-align: middle;
+}
+
+@media (min-width: 760px) {
+  .navLinkIcon {
+    display: none;
+  }
+}
+
+@media (max-width: 760px) {
+  .nav-link-item{
+    display: none;
+  }
+  .nav-links{
+    padding-left: 40%;
+  }
 }
