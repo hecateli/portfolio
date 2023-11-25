@@ -1,0 +1,49 @@
+@font-face {
+    font-family: "Cutive Mono";
+    font-style: normal;
+    font-weight: normal;
+    src: url("../../public/static/fonts/CutiveMono-Regular.ttf") format("truetype");
+  }
+
+  @font-face {
+    font-family: "Cherish";
+    font-style: normal;
+    font-weight: normal;
+    src: url("../../public/static/fonts/Cherish-Regular.ttf") format("truetype");
+  }
+
+.container {
+    max-width: 100%;
+    height: 3.2rem;
+    background-color: #537B5C;
+    display: flex;
+  }
+  
+.logo {
+    display: flex;
+    width: 50%;
+    margin-left: 2rem;
+    align-items: center;
+    font-family: 'Cherish', cursive;
+    font-size: large;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.nav-links {
+    display: flex;
+    list-style: none;
+    align-items: center;
+    padding-left: 20%;
+}
+
+.nav-link-item {
+    padding-right: 4rem;
+}
+
+.nav-link-text {
+    color: #ffffff;
+    font-family: 'Cutive Mono', monospace;
+    font-size: large;
+    text-decoration: none;
+}

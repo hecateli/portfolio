@@ -1,0 +1,30 @@
+@font-face {
+    font-family: "Cabin";
+    font-style: normal;
+    font-weight: normal;
+    src: url("../../public/static/fonts/Cabin-VariableFont_wdth\,wght.ttf") format("truetype");
+  }
+
+.welcome_image{
+    width: 100%;
+    opacity: 0.55;
+}
+
+.welcome_wrap {
+    background: #000;
+    position: relative;
+}
+
+.welcome_text_container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.welcome_text{
+    color: #ffffff;
+    text-align: center;
+    font-size:xx-large;
+    font-family: "Cabin", sans-serif;
+}
