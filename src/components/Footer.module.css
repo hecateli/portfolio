@@ -1,0 +1,43 @@
+@font-face {
+    font-family: "Cutive Mono";
+    font-style: normal;
+    font-weight: normal;
+    src: url("../../public/static/fonts/CutiveMono-Regular.ttf") format("truetype");
+  }
+
+  @font-face {
+    font-family: "Cabin";
+    font-style: normal;
+    font-weight: normal;
+    src: url("../../public/static/fonts/Cabin-VariableFont_wdth\,wght.ttf") format("truetype");
+  }
+
+.footer_container{
+    height: 7rem;
+    background-color: #537B5C;
+    text-align: center;
+    padding-top: 2rem;
+}
+
+.footer_copyright{
+    color: #FFFFFF;
+    font-family: "Cabin", sans-serif;
+    font-size: larger;
+}
+
+.footer_links{
+    font-family: "Cutive Mono", monospace;
+    display: block;
+    list-style: none;
+    text-align: center;
+    margin-top: 2%;
+    width: 100%;
+}
+
+.footer_link_item{
+    padding-left: 1%;
+    padding-right: 1%;
+    color: #FFFFFF;
+    font-size: large;
+    text-decoration: none;
+}

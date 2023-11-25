@@ -1,0 +1,34 @@
+@font-face {
+    font-family: "Cutive Mono";
+    font-style: normal;
+    font-weight: normal;
+    src: url("../../public/static/fonts/CutiveMono-Regular.ttf") format("truetype");
+  }
+
+.contact_container{
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.contact_heading{
+    font-family: "Cutive Mono", monospace;
+    text-align: center;
+    color: #0E2310;
+}
+
+.contact_links{
+    display: block;
+    list-style: none;
+    text-align: center;
+    margin-top: 2%;
+    width: 100%;
+}
+
+.contact_item{
+    padding-left: 2%;
+    padding-right: 2%;
+}
+    
+.contact_icon{
+    color:  #0E2310;
+}

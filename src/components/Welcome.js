@@ -5,7 +5,7 @@ import { welcome_image, welcome_wrap, welcome_text, welcome_text_container } fro
 const Welcome = () => {
     return (
         <div className={welcome_wrap}>
-            <StaticImage className={welcome_image} height={'40%'}
+            <StaticImage className={welcome_image} height={'30%'}
             src="../images/welcome.jpg"/>
             <div className={welcome_text_container}>
                 <p className={welcome_text}>I AM XINYUE LI</p>
