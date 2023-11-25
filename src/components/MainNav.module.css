@@ -34,16 +34,17 @@
     display: flex;
     list-style: none;
     align-items: center;
+    vertical-align: middle;
     padding-left: 20%;
 }
 
 .nav-link-item {
-    padding-right: 4rem;
+    padding-right: 10%;
 }
 
 .nav-link-text {
     color: #ffffff;
     font-family: 'Cutive Mono', monospace;
-    font-size: large;
+    font-size: 1rem;
     text-decoration: none;
 }

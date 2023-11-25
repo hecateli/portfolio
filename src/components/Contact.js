@@ -13,16 +13,16 @@ const Contact = () => {
             <h1 className={contact_heading}>CONTACT ME</h1>
             <div className={contact_links}>
                 <a href="mailto: hecateyue.li@mail.utoronto.ca" className={contact_item}>
-                        <MdOutlineMailOutline className={contact_icon} size={34}/>
+                        <MdOutlineMailOutline className={contact_icon} size={36}/>
                 </a>
                 <a href="https://github.com/hecateli" className={contact_item}>
-                    <FaGithub className={contact_icon} size={34}/>
+                    <FaGithub className={contact_icon} size={36}/>
                 </a>
                 <a href="https://www.instagram.com/hecateyyyue/" className={contact_item}>
-                    <FaInstagram className={contact_icon} size={34}/>
+                    <FaInstagram className={contact_icon} size={36}/>
                 </a>
                 <a href="https://www.linkedin.com/in/hecate-li" className={contact_item}>
-                    <FaLinkedin className={contact_icon} size={34}/>
+                    <FaLinkedin className={contact_icon} size={36}/>
                 </a>
             </div>
         </div>

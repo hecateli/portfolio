@@ -13,6 +13,7 @@
 }
 
 .resume_container{
+    margin-top: 5%;
     margin-bottom: 5%;
 }
 
@@ -20,6 +21,7 @@
     font-family: "Cutive Mono", monospace;
     text-align: center;
     color: #0E2310;
+    font-size: 1.5rem;
 }
 
 .resume_download_container{
@@ -28,7 +30,7 @@
     margin-left: 30%;
     margin-right: 30%;
     padding-left: 1rem;
-    height: 2rem;
+    height: 2.5rem;
     background-color: #DFEEE2;
     align-items: center;
 }
@@ -36,6 +38,7 @@
     font-family: "Share", sans-serif;
     text-decoration: none;
     color: #0E2310;
+    font-size: 1rem;
     width: 70%;
 }
 
@@ -44,8 +47,9 @@
     text-decoration: none;
     color: #245F31;
     text-align: right;
-    padding-right: 5%;
+    padding-right: 3%;
     width: 30%;
+    font-size: 1rem;
 }
 
 .resume_download_icon{

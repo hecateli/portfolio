@@ -13,16 +13,17 @@
   }
 
 .footer_container{
-    height: 7rem;
+    height: 7vw;
     background-color: #537B5C;
     text-align: center;
-    padding-top: 2rem;
+    padding-top: 2vw;
+    padding-bottom: 2vw;
 }
 
 .footer_copyright{
     color: #FFFFFF;
     font-family: "Cabin", sans-serif;
-    font-size: larger;
+    font-size: 1.5vw;
 }
 
 .footer_links{
@@ -38,6 +39,6 @@
     padding-left: 1%;
     padding-right: 1%;
     color: #FFFFFF;
-    font-size: large;
+    font-size: 1.5vw;
     text-decoration: none;
 }
