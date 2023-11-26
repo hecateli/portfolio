@@ -1,0 +1,9 @@
+.edu_container{
+    margin-top: 5%;
+    padding-left: 10%;
+    padding-right: 10%;
+    margin-bottom: 5%;
+
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
