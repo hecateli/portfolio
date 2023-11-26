@@ -1,5 +1,5 @@
   @font-face {
-    font-family: "Herr Von Muellerhoff";
+    font-family: "Cherish";
     font-style: normal;
     font-weight: normal;
     src: url("../../public/static/fonts/Cherish-Regular.ttf") format("truetype");
@@ -18,7 +18,7 @@
     margin-right: 20%;
     margin-left: 3%;
     align-items: center;
-    font-family: 'Cherish', cursive;
+    font-family: 'Cherish', cursive;;
     font-size: large;
     color: #ffffff;
     text-decoration: none;
