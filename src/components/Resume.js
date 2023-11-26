@@ -1,5 +1,5 @@
 import * as React from 'react'
-import downloadFile from '../../public/static/files/Xinyue_Li\'s_Resume.pdf'
+import downloadFile from '../../public/static/files/Xinyue_Li\'s_Resume_v1.pdf'
 import { resume_container,
     resume_heading,
     resume_download_container,
