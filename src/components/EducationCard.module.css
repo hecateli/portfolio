@@ -36,3 +36,9 @@
 .edu_focus{
     margin-top: 0.5rem;
 }
+
+@media (max-width: 760px) {
+    .edu_card{
+        padding-top: 0;
+    }
+}

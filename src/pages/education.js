@@ -3,7 +3,7 @@ import { StaticImage } from 'gatsby-plugin-image'
 import Layout from '../components/layout'
 import EducationBlock from '../components/EducationBlock'
 import EducationCard from '../components/EducationCard'
-import { edu_img } from '../components/Education.module.css'
+import { edu_img, special_img, org_img } from '../components/Education.module.css'
 
 const Education = () => {
   return (
@@ -18,13 +18,14 @@ const Education = () => {
           program='Compuer Science Specialist'
           focus='Focus In Web and Internet Technologies & Artificial Intelligence'
         />
+        <StaticImage src='../images/six.png' className={ special_img }/>
         <EducationCard 
           status='HIGH SCHOOL'
           time='Sept 2019 - June 2022'
           name='GUANGZHOU NO.6 HIGH SCHOOL'
           link='https://www.gz6hs.cn/'
         />
-        <StaticImage src='../images/six.png' className={ edu_img }/>
+        <StaticImage src='../images/six.png' className={ org_img }/>
         <StaticImage src='../images/qea.jpg' className={ edu_img }/>
         <EducationCard 
           status='HIGH SCHOOL'

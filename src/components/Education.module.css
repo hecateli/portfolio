@@ -2,3 +2,16 @@
     margin-top: 0.5rem;
     margin-bottom: 0.5rem;
 }
+
+.special_img{
+    display: none;
+}
+
+@media (max-width: 760px) {
+    .org_img{
+        display: none;
+    }
+    .special_img{
+        display: block;
+    }
+}
