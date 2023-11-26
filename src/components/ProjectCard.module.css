@@ -1,0 +1,51 @@
+@font-face {
+    font-family: "Cuprum";
+    font-style: normal;
+    font-weight: normal;
+    src: url("../../public/static/fonts/Cuprum-VariableFont_wght.ttf") format("truetype");
+  }
+
+.proj_card{
+    text-align: center;
+    padding-top: 5%;
+    padding-bottom: 10%;
+}
+
+.proj_name{
+    margin-top: 5%;
+    margin-bottom: 2rem;
+    font-family: 'Cuprum', sans-serif;
+}
+
+.proj_details{
+    padding-left: 5%;
+    width: 90%;
+}
+
+.proj_but{
+    margin-top: 1rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    border: none;
+    background-color: #DFEEE2;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.proj_but:hover{
+    padding-left: 1.1rem;
+    padding-right: 1.1rem;
+    padding-top: 0.6rem;
+    padding-bottom: 0.6rem;
+    box-shadow: 2px 2px #98bb9f;
+}
+
+.proj_link{
+    text-decoration: none;
+    color: #245F31;
+    font-family: 'Cuprum', sans-serif;
+    height: 100%;
+    width: 100%;
+}

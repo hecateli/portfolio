@@ -3,7 +3,7 @@ import { StaticImage } from 'gatsby-plugin-image'
 import Layout from '../components/layout'
 import EducationBlock from '../components/EducationBlock'
 import EducationCard from '../components/EducationCard'
-import { edu_img, special_img, org_img } from '../components/Education.module.css'
+import { edu_img } from '../components/Education.module.css'
 
 const Education = () => {
   return (
@@ -15,7 +15,7 @@ const Education = () => {
           time='Sept 2022 - Present'
           name='UNIVERSITY OF TORONTO'
           link='https://www.utoronto.ca/'
-          program='Compuer Science Specialist'
+          program='Computer Science Specialist'
           focus='Focus In Web and Internet Technologies & Artificial Intelligence'
         />
         <StaticImage src='../images/six.png' className={ edu_img }/>
@@ -29,7 +29,7 @@ const Education = () => {
         <EducationCard 
           status='HIGH SCHOOL'
           time='Sept 2020 - June 2022'
-          name='QUEEN’S ELITE ACADEMY'
+          name='QUEEN‘S ELITE ACADEMY'
           link='https://queenscanada.com/'
         />
       </EducationBlock>
