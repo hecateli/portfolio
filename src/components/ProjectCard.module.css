@@ -1,8 +1,8 @@
 @font-face {
-    font-family: "Cuprum";
+    font-family: "Cutive Mono";
     font-style: normal;
     font-weight: normal;
-    src: url("../../public/static/fonts/Cuprum-VariableFont_wght.ttf") format("truetype");
+    src: url("../../public/static/fonts/CutiveMono-Regular.ttf") format("truetype");
   }
 
 .proj_card{
@@ -14,7 +14,7 @@
 .proj_name{
     margin-top: 5%;
     margin-bottom: 2rem;
-    font-family: 'Cuprum', sans-serif;
+    
 }
 
 .proj_details{
@@ -45,7 +45,7 @@
 .proj_link{
     text-decoration: none;
     color: #245F31;
-    font-family: 'Cuprum', sans-serif;
+    font-family: "Cutive Mono", monospace;
     height: 100%;
     width: 100%;
 }
