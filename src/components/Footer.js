@@ -22,9 +22,9 @@ const Footer = () => {
                 <Link to="/projects" className={footer_link_item}>
                     PROJECTS
                 </Link>
-                <Link to="/life" className={footer_link_item}>
+                {/* <Link to="/life" className={footer_link_item}>
                     LIFE
-                </Link>
+                </Link> */}
             </div>
         </div>
     )
