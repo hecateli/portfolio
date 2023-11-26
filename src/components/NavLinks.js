@@ -9,11 +9,11 @@ import {
 const NavLinks = () => {
     return (
         <ul className={navLinks}>     
-            <li className={navLinkItem}>
+            {/* <li className={navLinkItem}>
                 <Link to="/life" className={navLinkText}>
                     LIFE
                 </Link>
-            </li>
+            </li> */}
             <li className={navLinkItem}>
                 <Link to="/projects" className={navLinkText}>
                     PROJECTS
