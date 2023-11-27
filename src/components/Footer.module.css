@@ -2,14 +2,14 @@
     font-family: "Cutive Mono";
     font-style: normal;
     font-weight: normal;
-    src: url("../../public/static/fonts/CutiveMono-Regular.ttf") format("truetype");
+    src: url("../assets/fonts/CutiveMono-Regular.ttf") format("truetype");
   }
 
   @font-face {
     font-family: "Cabin";
     font-style: normal;
     font-weight: normal;
-    src: url("../../public/static/fonts/Cabin-VariableFont_wdth\,wght.ttf") format("truetype");
+    src: url("../assets/fonts/Cabin-VariableFont_wdth\,wght.ttf") format("truetype");
   }
 
 .footer_container{

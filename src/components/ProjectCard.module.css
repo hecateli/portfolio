@@ -2,7 +2,7 @@
     font-family: "Cutive Mono";
     font-style: normal;
     font-weight: normal;
-    src: url("../../public/static/fonts/CutiveMono-Regular.ttf") format("truetype");
+    src: url("../assets/fonts/CutiveMono-Regular.ttf") format("truetype");
   }
 
 .proj_card{

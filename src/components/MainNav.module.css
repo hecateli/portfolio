@@ -2,7 +2,7 @@
     font-family: "Cherish";
     font-style: normal;
     font-weight: normal;
-    src: url("../../public/static/fonts/Cherish-Regular.ttf") format("truetype");
+    src: url("../assets/fonts/Cherish-Regular.ttf") format("truetype");
   }
 
 .container {
@@ -18,7 +18,7 @@
     margin-right: 20%;
     margin-left: 3%;
     align-items: center;
-    font-family: 'Cherish', cursive;;
+    font-family: 'Cherish', cursive;
     font-size: large;
     color: #ffffff;
     text-decoration: none;

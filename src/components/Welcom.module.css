@@ -2,7 +2,7 @@
     font-family: "Cabin";
     font-style: normal;
     font-weight: normal;
-    src: url("../../public/static/fonts/Cabin-VariableFont_wdth\,wght.ttf") format("truetype");
+    src: url("../assets/fonts/Cabin-VariableFont_wdth\,wght.ttf") format("truetype");
   }
 
 .welcome_image{

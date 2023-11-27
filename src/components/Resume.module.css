@@ -2,14 +2,14 @@
     font-family: "Cutive Mono";
     font-style: normal;
     font-weight: normal;
-    src: url("../../public/static/fonts/CutiveMono-Regular.ttf") format("truetype");
+    src: url("../assets/fonts/CutiveMono-Regular.ttf") format("truetype");
   }
 
 @font-face {
     font-family: "Share";
     font-style: italic;
     font-weight: normal;
-    src: url("../../public/static/fonts/Share-Italic.ttf") format("truetype");
+    src: url("../assets/fonts/Share-Italic.ttf") format("truetype");
 }
 
 .resume_container{
@@ -30,6 +30,7 @@
     margin-left: 30%;
     margin-right: 30%;
     padding-left: 1rem;
+    padding-right: 1rem;
     height: 2.5rem;
     background-color: #DFEEE2;
     align-items: center;
