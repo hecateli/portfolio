@@ -1,0 +1,40 @@
+.exper_card{
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+    text-align: center;
+    padding-top: 10%;
+    color: #0E2310;
+}
+
+.exper_position{
+    margin-left: 20%;
+    margin-right: 20%;
+    width: 60%;
+    height: 2rem;
+    border-bottom: 2px solid #000;
+    margin-bottom: 0.5rem;
+}
+
+.exper_time{
+    font-size: 1rem;
+    margin-top: 0.5rem;
+    margin-bottom: 1rem;
+}
+
+.exper_name{
+    text-decoration: none;
+    color: #0E2310;
+    font-size: 1.3rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.exper_type{
+    margin-bottom: 0;
+}
+
+@media (max-width: 760px) {
+    .exper_card{
+        padding-top: 0;
+    }
+}
