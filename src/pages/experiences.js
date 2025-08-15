@@ -9,7 +9,6 @@ const Experiences = () => {
   return (
     <Layout pageTitle="Experiences">
       <ExperienceBlock>
-        <StaticImage src='../images/google.png' className={ exper_img }/>
         <ExperienceCard 
           position='Software Engineer'
           time='May 2025 - Aug 2025'
@@ -17,7 +16,6 @@ const Experiences = () => {
           link='https://about.google'
           type='Intern'
         />
-        <StaticImage src='../images/KHERG.jpeg' className={ exper_img }/>
         <ExperienceCard 
           position='Software Engineer'
           time='May 2024 - Aug 2024'

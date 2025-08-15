@@ -16,7 +16,6 @@ const Education = () => {
           name='UNIVERSITY OF TORONTO'
           link='https://www.utoronto.ca/'
           program='Computer Science Specialist'
-          focus='Focus In Web and Internet Technologies & Artificial Intelligence'
         />
         <StaticImage src='../images/six.png' className={ edu_img }/>
         <EducationCard 
