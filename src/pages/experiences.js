@@ -14,21 +14,18 @@ const Experiences = () => {
           time='May 2025 - Aug 2025'
           name='Google'
           link='https://about.google'
-          type='Intern'
         />
         <ExperienceCard 
           position='Software Engineer'
           time='May 2024 - Aug 2024'
           name='University Health Network (UHN) - Kidney Health Education and Research Group'
           link='https://nefros.net'
-          type='Volunteer'
         />
         <ExperienceCard 
           position='Full-stack Website Developer'
           time='Sept 2023 - Apr 2024'
           name='University Health Network (UHN) - Kidney Health Education and Research Group'
           link='https://nefros.net'
-          type='Workstudy'
         />
       </ExperienceBlock>
     </Layout>
