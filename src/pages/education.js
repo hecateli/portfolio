@@ -28,7 +28,7 @@ const Education = () => {
         <EducationCard 
           status='HIGH SCHOOL'
           time='Sept 2020 - June 2022'
-          name='QUEEN‘S ELITE ACADEMY'
+          name="QUEEN'S ELITE ACADEMY"
           link='https://queenscanada.com/'
         />
       </EducationBlock>
