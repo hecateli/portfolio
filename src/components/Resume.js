@@ -1,5 +1,5 @@
 import * as React from 'react'
-import downloadFile from '../assets/files/Xinyue_Li_Resume_v1.pdf'
+import downloadFile from '../assets/files/Xinyue_Li_Resume_2025.pdf'
 import { resume_container,
     resume_heading,
     resume_download_container,
@@ -16,7 +16,7 @@ const Resume = () => {
             <h1 className={resume_heading}>MY RESUME</h1>
             <div className={resume_download_container}>
                 <a href={downloadFile} className={resume_download_text} download>
-                    Xinyue_Li_Resume_2023
+                    Xinyue_Li_Resume_2025
                     <MdOutlineFileDownload className={resume_download_icon_left}/>
                 </a>
                 <a href={downloadFile} className={resume_download_button} download>

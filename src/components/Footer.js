@@ -10,7 +10,7 @@ const Footer = () => {
     return (
         <div className={footer_container}>
             <div className={footer_copyright}>
-                XINYUE  LI © 2023. ALL RIGHTS RESERVED.
+                XINYUE  LI © 2025. ALL RIGHTS RESERVED.
             </div>
             <div className={footer_links}>
                 <Link to="/" className={footer_link_item}>
