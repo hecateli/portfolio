@@ -26,10 +26,10 @@
 }
 
 .nav-link-text:hover{
-  border-bottom: 2px solid #ffffff;
+  border-bottom: 1px solid #ffffff;
 }
 
-.nav-link-text:active{
+.activeLink{
   border-bottom: 1px solid #ffffff;
 }
 
@@ -48,6 +48,10 @@
   }
 
   .nav-link-text:hover{
+    border-bottom: 1px solid #0E2310;
+  }
+
+  .activeLink{
     border-bottom: 1px solid #0E2310;
   }
 }

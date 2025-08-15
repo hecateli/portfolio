@@ -4,6 +4,7 @@ import {
     navLinks,
     navLinkItem,
     navLinkText,
+    activeLink
  } from './NavLinks.module.css' 
 
 const NavLinks = () => {
@@ -15,22 +16,22 @@ const NavLinks = () => {
                 </Link>
             </li> */}
             <li className={navLinkItem}>
-                <Link to="/experiences" className={navLinkText}>
+                <Link to="/experiences" className={navLinkText} activeClassName={activeLink}>
                     EXPERIENCES
                 </Link>
             </li>
             <li className={navLinkItem}>
-                <Link to="/projects" className={navLinkText}>
+                <Link to="/projects" className={navLinkText} activeClassName={activeLink}>
                     PROJECTS
                 </Link>
             </li>
             <li className={navLinkItem}>
-                <Link to="/education" className={navLinkText}>
+                <Link to="/education" className={navLinkText} activeClassName={activeLink}>
                     EDUCATION
                 </Link>
             </li>
             <li className={navLinkItem}>
-                <Link to="/" className={navLinkText}>
+                <Link to="/" className={navLinkText} activeClassName={activeLink}>
                     HOME
                 </Link>
             </li>
