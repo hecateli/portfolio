@@ -22,6 +22,9 @@ const Footer = () => {
                 <Link to="/projects" className={footer_link_item}>
                     PROJECTS
                 </Link>
+                <Link to="/experiences" className={footer_link_item}>
+                    EXPERIENCES
+                </Link>
                 {/* <Link to="/life" className={footer_link_item}>
                     LIFE
                 </Link> */}

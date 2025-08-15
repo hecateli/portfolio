@@ -1,0 +1,15 @@
+.exper_block{
+    padding-left: 28%;
+    padding-right: 28%;
+    margin-bottom: 5%;
+    margin-top: 3%;
+}
+
+@media (max-width: 760px){
+    .exper_block{
+        padding-left: 20%;
+        padding-right: 20%;
+        margin-bottom: 5%;
+        margin-top: 3%;
+    }
+}

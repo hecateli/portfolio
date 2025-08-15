@@ -15,6 +15,11 @@ const NavLinks = () => {
                 </Link>
             </li> */}
             <li className={navLinkItem}>
+                <Link to="/experiences" className={navLinkText}>
+                    EXPERIENCES
+                </Link>
+            </li>
+            <li className={navLinkItem}>
                 <Link to="/projects" className={navLinkText}>
                     PROJECTS
                 </Link>
